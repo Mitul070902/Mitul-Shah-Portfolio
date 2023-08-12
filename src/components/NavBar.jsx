@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-scroll"; // Make sure this package is installed
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -29,12 +29,12 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed top-0">
       <div>
         <h1 className="text-5xl font-signature ml-2">Mitul Shah</h1>
       </div>
 
-      <ul className="md:flex hidden"> {/* Show the links on screens larger than 'md' */}
+      <ul className="md:flex hidden">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -54,25 +54,23 @@ const NavBar = () => {
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 
-      {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
-          {links.map(({ id, link }) => (
-            <li
-              key={id}
-              className="px-4 cursor-pointer capitalize py-6 text-4xl"
+      <ul className={`flex md:hidden justify-center items-center w-full ${nav ? "block" : "hidden"}`}>
+        {links.map(({ id, link }) => (
+          <li
+            key={id}
+            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+          >
+            <Link
+              onClick={() => setNav(false)}
+              to={link}
+              smooth
+              duration={500}
             >
-              <Link
-                onClick={() => setNav(!nav)}
-                to={link}
-                smooth
-                duration={500}
-              >
-                {link}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
+              {link}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
