@@ -13,13 +13,15 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
           <div className="absolute text-white text-4xl md:text-6xl"> {/* Adjust text size for small and medium/larger screens */}
-        <span role="img" aria-label="wave-hand">👋</span> Hello!
+        {/* <span role="img" aria-label="wave-hand">👋</span> Hello! */}
           </div>
           <br></br>
            I'm a Developer and a Product enthusiast
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I 
+            I Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
+          deserunt illum mollitia officiis qui exercitationem perferendis neque
+          quasi a recusandae necessitatibus tempora iusto! Blanditiis error 
           </p>
 
           <div>
