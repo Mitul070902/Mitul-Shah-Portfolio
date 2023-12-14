@@ -1,5 +1,4 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
 import github from "../assets/portfolio/Github image.jpeg";
 import pro from "../assets/portfolio/Product.png";
 
