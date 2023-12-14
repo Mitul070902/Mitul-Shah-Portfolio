@@ -14,24 +14,25 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        I am Mitul Shah, and I am a highly motivated Electronics and Telecommunications student at Pune Institute Of Computer Technology. I possess a robust skill set, encompassing languages such as Java, React Js, and Python, alongside proficiency in tools like Git, VS Code, and Figma. Throughout my academic journey, I have consistently excelled, earning a stellar 9.3/10 GPA in my B.E. program.
         </p>
 
-        <br />
 
-        <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+
+        <p className="text-xl mt-20">
+        In my role as a Frontend Developer Intern at PICT-InC, I contributed to the success of the Impetus and Concepts’22 tech fest by designing and developing its user-friendly website using React Js, Tailwind, and Figma. Subsequently, as an Analyst Intern at Kulturehire, I harnessed Power BI and SQL for data visualization, ensuring accurate representation of "The Managers of India" business statement.
         </p>
+
+
+        <p className="text-xl mt-20">
+        My dedication extends to impactful projects, such as the Subjective Answer Evaluation using NLP (Final Year Project), where I employed advanced techniques with the BERT model for semantic understanding. Additionally, my experience in Data Analysis using the AWS Stack facilitated critical insights into COVID-19 infection patterns and risk factors.
+        </p>
+
+    
+        <p className="text-xl mt-20">
+        I have demonstrated leadership as the Overall Head of Operations for Impetus and Concepts’23 and as the Head of Operations and Event Organizer for TEDxPICT. My accolades include winning the DSP Domain at InC’23 and securing runner-up positions in contests like ABSTRACT’22 and Xenatus. With a passion for technology and a proven track record, I am poised for continued success in the field of Modern Technology.
+        </p>
+
       </div>
     </div>
   );

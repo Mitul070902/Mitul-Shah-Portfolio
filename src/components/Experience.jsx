@@ -1,11 +1,13 @@
 import React from "react";
-
+import mysql from "../assets/portfolio/mysql.png";
+import aws from "../assets/aws.png";
+import python from "../assets/Python-logo-notext.svg.png";
 import html from "../assets/html.png";
-import css from "../assets/css.png";
+import ms from "../assets/ms_office.png";
+import java from "../assets/java.png";
+import bi from "../assets/Microsoft-Power-BI-Logo-2013.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
-import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 
@@ -19,8 +21,8 @@ const Experience = () => {
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
+      src: java,
+      title: "Java",
       style: "shadow-blue-500",
     },
     {
@@ -38,25 +40,43 @@ const Experience = () => {
     {
       id: 5,
       src: tailwind,
-      title: "Tailwind",
+      title: "Tailwind CSS",
       style: "shadow-sky-400",
     },
     {
       id: 6,
-      src: nextjs,
-      title: "Next JS",
-      style: "shadow-white",
+      src: mysql,
+      title: "MySql",
+      style: "shadow-sky-400",
     },
     {
       id: 7,
-      src: graphql,
-      title: "GraphQL",
-      style: "shadow-pink-400",
+      src: python ,
+      title: "Python",
+      style: "shadow-sky-400",
     },
     {
       id: 8,
+      src: aws ,
+      title: "AWS",
+      style: "shadow-sky-400",
+    },
+    {
+      id: 9,
+      src: bi,
+      title: "Power BI",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 10,
       src: github,
       title: "GitHub",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 11,
+      src: ms,
+      title: "MS Office Suite",
       style: "shadow-gray-400",
     },
   ];

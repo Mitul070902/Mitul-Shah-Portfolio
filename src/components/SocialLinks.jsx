@@ -15,15 +15,7 @@ const SocialLinks = () => {
       href: "https://www.linkedin.com/in/mitul-shah-407592241/",
       style: "rounded-tr-md",// only top and bottom element get this.
     },
-    {
-      id: 2,
-      child: (
-        <>
-          GitHub <FaGithub size={30} />
-        </>
-      ),
-      href: "https://github.com/theyashpatel",
-    },
+    
     {
       id: 3,
       child: (
@@ -31,7 +23,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "mailto:mitulshah0709@gmail.com",
     },
     {
       id: 4,

@@ -19,9 +19,7 @@ const Home = () => {
            I'm a Developer and a Product enthusiast
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error 
+          Hello! I'm Mitul Shah, and this is my portfolio—a showcase of expertise in software development and strategic product management. Explore my professional journey where technical proficiency meets a strategic mindset, delivering impactful solutions and contributing to corporate success.
           </p>
 
           <div>
